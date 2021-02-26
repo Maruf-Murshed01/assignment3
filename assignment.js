@@ -1,5 +1,13 @@
-//problemOne
+//https://github.com/Maruf-Murshed01/assignment3
 
+
+
+
+
+
+
+
+//problemOne
 function kilometerToMeter(kilometer) {
     var meter = kilometer * 1000;
     return meter;
@@ -9,21 +17,27 @@ console.log(result);
 
 
 
+
+
+
+
 //ProblemTwo
 function budgetCalculator(watch, phone, laptop) {
     var watchPrice = watch * 50;
     var phonePrice = phone * 100;
     var laptopPrice = laptop * 500;
-    var getTotalPrice = watchPrice + phonePrice + laptopPrice;
-    return getTotalPrice;
+    var totalPrice = watchPrice + phonePrice + laptopPrice;
+    return totalPrice;
 }
 
-var budgetResult = budgetCalculator(1, 2, 3);
-console.log(budgetResult);
+var Result = budgetCalculator(1, 2, 3);
+console.log(Result);
+
+
+
 
 
 //problemThree
-
 function hotelCost(dayCount) {
     var totalPrice = 0;
     if (dayCount <= 10) {
@@ -46,8 +60,11 @@ function hotelCost(dayCount) {
 var getHotelCost = hotelCost(21);
 console.log(getHotelCost);
 
-//problemFour
 
+
+
+
+//problemFour
 function megaFriend(friendsName) {
     var longestName = '';
     for (var i = 0; i < friendsName.length; i++) {
